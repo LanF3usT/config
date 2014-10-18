@@ -11,7 +11,6 @@
 	co = checkout
 	df = diff
 	lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ar)%Creset'
-	# lg = log --graph --pretty=format:'%C(yellow)%h%Creset - %Cgreen%an %Cblue%cr%Creset: %s%C(yellow)%d%Creset' --abbrev-commit --date=relative
 	nb = checkout -b
 	sa = stash apply
 	sd = stash drop
@@ -59,7 +58,6 @@
 
 [push]
 	default = upstream
-	# default = current
 
 [rerere]
   autoupdate = true
